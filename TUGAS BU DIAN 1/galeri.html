@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f1f1f1;
+  padding: 20px;
+  font-family: Arial;
+}
+
+/* Center website */
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 50px;
+  word-break: break-all;
+}
+
+.row {
+  margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+}
+
+/* Clear floats after rows */ 
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  background-color: white;
+  padding: 10px;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+  .column {
+    width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<!-- MAIN (Center website) -->
+<div class="main">
+
+    <!-- <blink><a href="http://www.facebook.com/cyberfrogteam.blogspot.c0m"><b> <span style="color: #ff00cc;">Tulisan Berkedip disertai LINK dan berwarna </span></b></a></blink>    -->
+<h1><marquee><span style ="color:rgb(103, 207, 216);">Galeri Anak-Anak AHE</span></marquee></h1>
+<hr>
+
+<!-- Portfolio Gallery Grid -->
+<div class="row">
+  <div class="column">
+    <div class="content">
+        <img src="img_1.jpg"  style="width:100%">
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+        <img src="img_2.jpg" style="width:100%">
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+        <img src="img_3.jpg"  style="width:100%">
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+        <img src="img_4.jpg"  style="width:100%">
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+        <img src="img_6.jpg"  style="width:100%">
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+        <img src="img_7.jpg"  style="width:100%">
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+        <img src="img_8.jpg"  style="width:100%">
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+        <img src="img_9.jpg"  style="width:100%">
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+        <img src="img_10.jpg"  style="width:100%">
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+        <img src="img_11.jpg"  style="width:100%">
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+        <img src="img_12.jpg"  style="width:100%">
+    </div>
+  </div>
+<!-- END GRID -->
+</div>
+
+<div class="content">
+  <img src="img_5.jpg" alt="Bear" style="width:100%">
+</div>
+
+<!-- END MAIN -->
+</div>
+
+</body>
+</html>
